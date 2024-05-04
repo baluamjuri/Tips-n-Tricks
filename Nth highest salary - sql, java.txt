@@ -1,0 +1,20 @@
+Nth highest salary
+
+SQL:
+----
+SELECT * 
+FROM Employee tb1
+WHERE N-1 = (SELECT COUNT(DISTINCT salary) FROM Employee tb2
+WHERE tb2.salary > tb1.salary)
+
+select * from Employee ORDER BY `sal` 
+DESC limit 5,1; // will return 6th highest
+//The above meaning is give me the first result after 5th record
+
+Java:
+-----
+Way 1:
+> step 1)sort them and store in List
+> step 2)Get it using index
+Way 2:
+> Using insertion sort, stop sorting at the right position
