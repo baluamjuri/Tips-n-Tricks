@@ -1,0 +1,2 @@
+Using Arrays.toString()
+Using Arrays.deepToString() - for multidimentional arrays
