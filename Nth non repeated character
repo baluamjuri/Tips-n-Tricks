@@ -1,0 +1,2 @@
+String string = "thequickbrownfoxjumpsthelazydog";
+Arrays.stream(string.split("")).filter(s -> string.indexOf(s)==string.lastIndexOf(s)).skip(2).findFirst().ifPresent(System.out::println);
