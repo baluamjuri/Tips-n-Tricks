@@ -18,3 +18,6 @@ Way 1:
 > step 2)Get it using index
 Way 2:
 > Using insertion sort, stop sorting at the right position
+
+Using streams:
+Employee employee = list.stream().sorted(Comparator.comparing(employee::getSalary)).skip(n-1).findFirst().get();
