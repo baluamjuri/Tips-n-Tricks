@@ -1,0 +1,10 @@
+Real time experience, solving issues
+INSERT ON DUPLICATE KEY UPDATE in MySQL
+update with limit
+
+UPDATE [People].[People]
+SET GENDER = CASE WHEN GENDER = 'Male' THEN 'M' 
+WHEN GENDER = 'Female' THEN 'F'  END 
+WHERE Id=40 
+AND NOT GENDER IN ('M', 'F') 
+
