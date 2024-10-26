@@ -11,7 +11,10 @@
 | Close the current file | ctrl+w | ctrl+f4 |
 | Rename | alt+shift+R | shift+f6 |
 | Basic completion | ctrl+space | ctrl+space |
-| Quick outline | ctrl+O | ctrl+O |
+| Quick outline | ctrl+O | alt+7|
 | Quick hierarchy | ctrl+T | ctrl+H |
 | Next/prev tab | ctrl+f6 | alt+> or alt+< |
 | Open implementation | place the cursor ctrl+select implementation| ctrl+alt+click |
+|Search everywhere | ctrl+h | double shit |
+| Select a wizard | ctrl+n | alt+ins, ctrl+alt+ins |
+| overriding methods | alt+shift+s and select | ctrl+o |
